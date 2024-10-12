@@ -1,0 +1,95 @@
+@media only screen and (max-width:600px ){
+
+    .servicios{
+        height: auto;
+        grid-template-columns: auto auto;
+    }
+    .title {
+      padding-right: 15px;
+      padding-left: 15px;
+
+    }
+
+    .padding-left-20x{
+        text-align: center;
+        margin-right: 100px;
+    }
+
+    .nosotros{
+        display: grid;
+       align-content: center;
+        grid-template-columns:  auto ;
+        gap: 5px; /*Separacion entre las columnas*/
+        /*background-color: var(--white);*/
+       /* margin-bottom: 20px;*/
+       /* margin-top: 10px;
+        text-align: center;*/
+        padding-top: 10%;
+        /*background-color: var(--aguamarina);*/
+       /* background-image: url(../images/elefante.avif);
+        background-repeat: none;
+        background-attachment: fixed;
+        background-position: center;*/
+
+   
+    }
+
+    .image {
+        width: 75%;
+        
+        border-radius: 30px;
+
+}
+.contacto {
+   
+    grid-template-columns: auto;
+
+}
+
+.footer{  
+    grid-template-columns: auto;
+    margin-bottom: 230px;
+
+
+    
+}
+
+.serviciossul{
+    
+    grid-template-columns: auto ;
+    
+
+
+}
+.servicioss{
+    background-color:blue;
+  
+}
+
+}
+
+@media only screen and (min-width:720px ){
+
+ .title{
+    padding-bottom: 30px;
+ }
+
+ .image {
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 30px;
+    padding-top: 100px;
+}
+.padding-left-20x {
+    padding-left: 20px;
+    padding-top: 80px;
+    padding-bottom: 10px;
+
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+}
